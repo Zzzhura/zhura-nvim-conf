@@ -37,11 +37,16 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "ast-grep ast_grep",
+      "ast_grep",
       "cssls",
       "dockerls",
       "lua_ls",
       "vuels",
+      "jsonls",
+      "vtsls",
+      "tailwindcss",
+      "biome",
+      "eslint",
 
       -- "pyright"
     },
